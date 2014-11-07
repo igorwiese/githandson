@@ -1,3 +1,3 @@
 #! /usr/bin/env python
 
-print "Falô world!"
+print "Falô mundao!"
