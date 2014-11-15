@@ -1,16 +1,32 @@
-﻿Criar repositório no github chamado 'gitProjeto';
-Adicionar todos os colegas ao projeto. Selecione o projeto que quer compartilhar(no caso 'gitProjeto') e depois vá em Settings/Collaborators para adicionar os nomes das pessoas irão compartilhar o projeto
-	Caso não tenha configurado o git, siga os passos abaixo:
-		Configurar senha e usuário para o git: git config --global user.name seunome e git config --global user.email;
+		Criar repositório no github chamado 'gitProjeto';
+		Adicionar todos ao projeto. Selecione o projeto que quer compartilhar(no caso 'gitProjetodeSistema2') e depois vá em Settings/Collaborators para adicionar os nomes das pessoas irão compartilhar o projeto.
+		Caso não tenha configurado o git, siga os passos abaixo:
+			Configurar senha e usuário para o git: git config --global user.name seunome e git config --global user.email;
+			Gerar e cadastrar uma chave ssh. Para gerar vá no git e digite no terminal ssh-keygen -t rsa -C 'algo para identificar usuario'. Após informar uma passphrase, copie conteúdo do arquivo gerado (normalmente em .../.ssh/id_rsa.pub). No github, vá em Account Settings/SSH Keys, clique no botão Add SSH Key e cole o conteúdo copiado do arquivo id_rsa.pub;
 		
-	Em sua máquina local, criar uma pasta chamada 'gitProjeto' no seu diretório home 
-	No git, acessar a pasta recém criada através do comando cd gitProjeto.
-	Iniciar um git neste diretório com git init;
-	Adicionar repositório (do nosso exemplo) ao git através do comando git remote add origin https://seurepositoriodogithub
+		Em sua máquina local, criar uma pasta chamada 'gitProjeto' no seu diretório home 
+		No git, acessar a pasta recém criada através do comando cd gitProjeto.
+		Iniciar um git neste diretório com git init;
+		Adicionar repositório (do nosso exemplo) ao git através do comando git remote add origin https://seurepositoriodogithub
 		
-	Crie um clone do projeto na sua máquina(na pasta gitProjeto). No terminal do git, digite git clone  https://seurepositoriodogithub
+		Crie um clone do projeto na sua máquina(na pasta gitProjeto). No terminal do git, digite git clone https://seurepositoriodogithub
 		Crie 4 arquivos com nomes a sua escolha
 		No terminal, adicione todas as alterações (os arquivos novos/modificados) ao seu repositório local git com git add .
 		Para confirmar estas mudanças, digitamos no terminal git commit -m "comentários das alterações" ;
 		Ainda no terminal, enviando para o repositório remoto (github): git push -u origin master. Caso obtenha um erro será necessário executar o comando git fetch origin e logo após o comando git push -u origin master	
+		
+		Tarefa 2:
+			Criar um fork do projeto de seu colega ao lado usando o GitHub
+				Entre na pasta do projeto no github de seu colega e clique no botão fork, que fica no canto superior direito.
+				Crie um clone do projeto que você acabou de realizar o fork em sua máquina local. Atente-se que você deve clonar o repositório que está na SUA conta. Como o nome é o mesmo de um repo que você já tem, será criado um repositorio de nome gitProjeto-1
+				
+				Entre no diretório de seu repositório clonado (na máquina local)
+				Altere um dos arquivos do repositório e envie ao repositório do github (isso inclui fazer add, commit e push).
+				Em sua página do github solicite um pull (clicando em pull request dentro do repositório que você fez o fork - no seu perfil)
+					Você deve fazer isso clicando no link "pull request" no canto superior direito da lista de arquivos
+				Espere seu colega fazer o pull request dele, e aceite em seu repositório original (seuUserName/gitProjeto)
+					Clique em "Pull Requests" no menu da direita...
+					Olhe o pull e aceite
+				
+				
 		
