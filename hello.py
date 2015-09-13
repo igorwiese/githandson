@@ -1,4 +1,4 @@
 #! /usr/bin/env python
 
-print "Ol· mundao!"
+print "Ol√° mundao velho de guerra!"
 
