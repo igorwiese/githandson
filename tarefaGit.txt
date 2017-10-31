@@ -1,3 +1,7 @@
+#Ta_Tudo_Cagado_De_Verde_e_Rosa
+
+
+
 Criar repositório no github chamado 'gitProjeto';
 Adicionar três amiguinhos ao projeto. Selecione o projeto que quer compartilhar(no caso 'gitProjetodeSistema2') e depois vá em Settings/Collaborators para adicionar os nomes das pessoas irão compartilhar o projeto.
 Caso não tenha configurado o git, siga os passos abaixo:
